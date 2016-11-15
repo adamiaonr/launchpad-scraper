@@ -1,0 +1,376 @@
+status,title,importance,age,project,heat,link,id
+In Progress,enable CADF notification format by default,Medium,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641660,1641660
+Fix Released,include healthcheck middleware by default,Medium,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641654,1641654
+In Progress,cache invalidation should be wrapped to local context,High,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641652,1641652
+Confirmed,PCI: a locked out user must ask an admin to unlock their account,Medium,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641645,1641645
+Confirmed,users that are blacklisted for PCI support should not have failed login attempts counted,Medium,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641642,1641642
+Confirmed,use mapping_id for shadow users,Medium,-6,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641639,1641639
+Triaged,keystone-manage doctor needs developer docs,Medium,-8,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1641623,1641623
+Fix Released,Invalid folder in openstack/keystone repository,Medium,-240,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1639131,1639131
+Fix Released,Identity LDAP does not support AD nested groups,Medium,-288,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1638603,1638603
+Fix Released,new keystone db migrations require either SUPER or  log_bin_trust_function_creators=1,Medium,-312,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1638368,1638368
+Fix Released,After newton deployment _member_ role is missing in keystone,High,-600,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1635306,1635306
+Triaged,Whitelisting (opt-in) users/projects/domains for PCI compliance,Medium,-432,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1637146,1637146
+Fix Released,*_attribute_ignore is deprecated for removal even ldap backend read operations depends on it,Medium,-432,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1637135,1637135
+In Progress,Set network connection timeout on Keystone Identity's LDAP backend to prevent stall on bind,Medium,-456,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1636950,1636950
+Confirmed,Failures during db_sync --contract during Mitaka to Newton (live) upgrade,High,-480,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1636495,1636495
+In Progress,Inconsistency between v3 API and keystone token timestamps,High,-648,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1634568,1634568
+Confirmed,Lingering sql backend role assignments after deletion of ldap user.,Medium,-768,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1632924,1632924
+Fix Released,make the assignment/resource backend default to sql,High,-960,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1630435,1630435
+Fix Released,KeyError: 'is_domain' during mitaka -> newton rolling upgrade,High,-984,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1630259,1630259
+Fix Released,Admin password reset should be exempt from password history validation,Medium,-984,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1630092,1630092
+Fix Released,Password history constraints not enforced via /v3/users/<user_id>/password path,Medium,-1128,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1628692,1628692
+Invalid,Integrate Identity back end with LDAP in Administrator Guide,High,-1152,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1628135,1628135
+Fix Released,The belongsTo query parameters for v2.0 is broken,Medium,-1248,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1627085,1627085
+Fix Released,"[api] document ""belongsTo"" query for HEAD/GET tokens on v2",Medium,-1248,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1626794,1626794
+Fix Released,[api] document OS-SIMPLE-CERT routes,Medium,-1248,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1626779,1626779
+Fix Released,[api] document /auth/tokens/OS-PKI/revoked,Medium,-1248,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1626778,1626778
+Fix Released,increase token validation performance relating to revoked tokens,High,-1296,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1626205,1626205
+In Progress,Use oslo.context's policy dict,High,-3000,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1602081,1602081
+In Progress,Role Assignment Incorrectly Reports Inheritance when --name is Used,Medium,-1344,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1625230,1625230
+In Progress,Keystone should provide more verbose messages in case of 401 and 403 errors,Medium,-1344,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1625120,1625120
+Fix Released,referencing versionutils.deprecated.NEWTON in oslo.log <3.4.0,Medium,-1488,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1623168,1623168
+New,Prevent keystone from serving requests when schema or data migrations are not up to date,Medium,-1488,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1623117,1623117
+Fix Released,keystonemidleware dependency should be > 4.0.0,Medium,-1488,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1623091,1623091
+Fix Released,MySQL rounds timestamps,High,-1584,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1622010,1622010
+Fix Released,password created_at does not honor timezones,High,-1632,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1621200,1621200
+Fix Released,migration test fails on table addition,Medium,-1656,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1620764,1620764
+Fix Released,@property methods in Managers are cached,Medium,-1656,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1620722,1620722
+Fix Released,Raise NotImplementedError instead of NotImplemented,Medium,-17520,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1339855,1339855
+Fix Released,Credential Encryption breaks deployments without Fernet,High,-1752,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1619758,1619758
+Confirmed,keystone.cache.redis config arguments url conflict host and port,Medium,-1800,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1618705,1618705
+Fix Released,Legacy migration repository still accepts new migrations,Medium,-1800,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1618653,1618653
+Fix Released,master branch requires 0.6.2 of dogpile.cache,High,-1824,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1618453,1618453
+Fix Released,Keystone OAuth1 doesn't handle invalid request properly,Medium,-1968,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1616424,1616424
+Fix Released,The content type in OAuth1 extension is not spelled correclty,Medium,-2040,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1615339,1615339
+In Progress,"Forbid invalid operations in expand, migrate, and contract repositories",Medium,-2088,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1615024,1615024
+Fix Released,Entry to User table creates entries in local_user table for ldap and custom driver users,High,-2088,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1615000,1615000
+Triaged,openstack endpoint delete failing with error not found,Medium,-2112,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1614493,1614493
+Fix Released,Hints with values of None seem to be broken,Medium,-2136,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1614154,1614154
+In Progress,API v2.0 responds with HTTP 200 when trying to add a non-existent user to a project,Medium,-2136,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1614069,1614069
+Invalid,tempest.conf doesn't contain $project in [service_available] section,Medium,-2160,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1613542,1613542
+Fix Released,"Update credential to ""ec2"" type accepts a credential without the project set",Medium,-2184,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1613466,1613466
+Triaged,keystone ldap does not support Hebrew,Medium,-2448,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1609653,1609653
+Fix Released,500 error from revocation event deserialize,Medium,-2472,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1609566,1609566
+Fix Released,Schema for enabling users breaks keystoneclient and other projects,High,-2592,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1607751,1607751
+Won't Fix,domain admin cannot create implied role in default v3 policy,Medium,-2592,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1607655,1607655
+Fix Released,TOTP auth not functional in python3,High,-2616,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1607119,1607119
+Fix Released,Unauthorized exception causes missing exception kwargs (programmer error),Medium,-2640,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1607107,1607107
+Fix Released,DBDeadlock: (_mysql_exceptions.OperationalError) while deleting user,Medium,-2808,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1604862,1604862
+Invalid,tenantId/default_project_id missing on Keystone service user in Mitaka,Critical,-2832,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1604479,1604479
+Fix Released,V2 API: enable a user doesn't work,Medium,-2856,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1603905,1603905
+Fix Released,wrong check condtion for revoke event,Medium,-2856,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1603861,1603861
+Fix Released,py35: TestCheckForMutableDefaultArgs fails,High,-2952,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1603236,1603236
+Fix Released,Execption on admin_token usage ValueError: Unrecognized ,Medium,-2952,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1603038,1603038
+Fix Released,Relax the requirement for mappings to result in group memberships,High,-3024,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1601929,1601929
+In Progress,drop support for EPHEMERAL user type in mapping,Medium,-3024,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1601910,1601910
+Fix Released,"memcache raising ""too many values to unpack""",Medium,-3072,OpenStack Identity (keystone),20,https://bugs.launchpad.net/keystone/+bug/1600394,1600394
+Confirmed,v2.0 catalog seen in v3 token,High,-3072,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1600393,1600393
+Expired,Upgrading from Liberty to Mitaka erased passwords from SQL backend,Critical,-3096,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1600268,1600268
+Fix Released,Python 3.5 gate exposes issue in webob.response status code type,Medium,-3120,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1599983,1599983
+Fix Released,return `revoked_at` for the revocation event,Medium,-3264,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1598040,1598040
+Fix Released,WebSSO username shows as a UUID in the Horizon page,Medium,-3336,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1597101,1597101
+Triaged,Mitaka token 'expires' padding differs between POST and GET/HEAD on Fernet tokens,Medium,-3336,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1597077,1597077
+Fix Released,Passwords created_at attribute could remain unset during rolling upgrade,High,-3360,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1596500,1596500
+Fix Released,cannot create (or set) a user with no password,Critical,-3432,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1595819,1595819
+Fix Released,federated_user table failed db unit test if db engine is MyISAM,Medium,-3528,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1594592,1594592
+Fix Released,list_services API filtered by name can't find the service when using list_limit,Medium,-3528,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1594482,1594482
+Fix Released,create user through API does not validate domain_id is properly written,Medium,-3528,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1594284,1594284
+Expired,Error in get revoke_list,Medium,-3528,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1594231,1594231
+Fix Released,domain admin unable to setup a domain-specific role to imply another domain-specific role in the same domain,Medium,-3600,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1593813,1593813
+Won't Fix,openstackclient is not authorized to lookup domains by name,Medium,-3648,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1592988,1592988
+Fix Released,cached tokens break Liberty to Mitaka upgrade,High,-3696,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1592169,1592169
+Fix Released,Transient test failure in test_v3_auth.TestAuthTOTP,Critical,-3768,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1591022,1591022
+Fix Released,Cache region invalidation works for local CacheRegion object only,Critical,-3792,OpenStack Identity (keystone),44,https://bugs.launchpad.net/keystone/+bug/1590779,1590779
+Fix Released,assigning a domain-specific role in domain A for a user to a project in domain B should be prohibited,Medium,-3816,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1590587,1590587
+Fix Released,domain-specific role in one domain should not be able to imply a domain-specific role from another domain,Medium,-3816,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1590583,1590583
+Fix Released,global role should not be able to imply domain-specific role,Medium,-3816,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1590578,1590578
+Fix Released,fernet memcache performance regression,High,-3840,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1590179,1590179
+Fix Released,Getting error unexpected keyword 'scope'  while requesting OS-FEDERATION scoped token,High,-3864,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1589358,1589358
+Fix Released,/v3/groups?name=<name> bypasses group_filter for LDAP,Medium,-3936,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1588927,1588927
+Fix Released,keystone-manage bootstrap cannot recover admin account,Medium,-3936,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1588860,1588860
+Fix Released,Not all .po files compiled,High,-7176,OpenStack Identity (keystone),28,https://bugs.launchpad.net/keystone/+bug/1536226,1536226
+Fix Released,cover job is failing too frequently,High,-4008,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1587239,1587239
+Fix Released,Compiled .mo files are not included in keystone builds,Medium,-4296,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1583611,1583611
+Fix Released,setting user's default_project_id to a domain ID yield HTTP 400 instead of unscoped token,Medium,-4368,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1582376,1582376
+Triaged,oauth login silently ignores scope,Medium,-4536,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1579659,1579659
+Fix Released,project delete returns 501 NotImplemented with templated catalog,High,-4536,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1579604,1579604
+Fix Released,Race condition between token validation and revocation API causes intermittent gate failures.,High,-4608,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1578866,1578866
+Triaged,keystone token cache should offer encryption like the middleware cache does,Medium,-4632,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1578466,1578466
+Fix Released,Unable to distinguish between not is_admin_project and feature not enabled,Medium,-4656,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1577996,1577996
+Fix Released,/v3/users?name=<name> bypasses user_filter for LDAP,Medium,-4680,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1577804,1577804
+Fix Released,[OSSA 2016-008] v2.0 fernet tokens audit ids are inconsistent (CVE-2016-4911),High,-4704,OpenStack Identity (keystone),266,https://bugs.launchpad.net/keystone/+bug/1577558,1577558
+Triaged,Potential DOS: Keystone Extra Fields,Medium,-4776,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1576765,1576765
+Fix Released,Critically fail on startup if fernet_setup has not been run,High,-4800,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1576315,1576315
+Fix Released,'domain' is not honored in local.group mapping,Medium,-4848,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1575057,1575057
+Fix Released,keystone tox -epy27 fail in devstack environment,Medium,-4872,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1574493,1574493
+Fix Released,Failed migration 90 -> 91 Can't DROP 'ixu_user_name_domain_id',High,-4992,OpenStack Identity (keystone),22,https://bugs.launchpad.net/keystone/+bug/1572341,1572341
+Fix Released,testresources needs to be explicitly required for tests,Medium,-5016,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1572202,1572202
+Fix Released,Add protocol to identity provider using nonexistent mapping,Medium,-5040,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1571878,1571878
+Triaged,RFE: keystone-manage CLI to allow using syslog & specific log files,Medium,-5136,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1570463,1570463
+Fix Released,Incorrect deprecation warning for IdentityDriverV8,Medium,-5160,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1569814,1569814
+Fix Released,set_config_defaults() never called on testing,Medium,-5184,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1569389,1569389
+Invalid,Keystone fetches data from Memcache even if caching is explicitly turned off,Medium,-5304,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1567413,1567413
+Fix Released,Local context cache seems to work improperly,Medium,-5304,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1567403,1567403
+Fix Released,Updated federated user display name is not getting returned when changed,Medium,-5352,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1566494,1566494
+Fix Released,Returning federated user fails to authenticate with HTTP 500,Critical,-5352,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1566282,1566282
+Fix Released,"""unexpected error"" attempting to rename a project when name is already in use",Medium,-5448,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1565108,1565108
+Fix Released,Implied Roles responses lack 'links' pointing back to the API call that generated them,Medium,-5496,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1564129,1564129
+Fix Released,Remove backend dependency on core,Medium,-5544,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1563101,1563101
+Fix Released,liberty -> mitaka db migrate fails when constraint names are inconsistent,Critical,-5544,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1562934,1562934
+Fix Released,Keystone unit test failure with oslo.* from master,Medium,-5664,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1561121,1561121
+Fix Released,keystone-manage looks for default_config_files in the wrong place,Medium,-5664,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1561099,1561099
+Fix Released,Remove SP filering documentation,Medium,-5784,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1559022,1559022
+Fix Released,Internal server error when updating an identity provider,Medium,-5808,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1558670,1558670
+Fix Released,mapping yield no valid identity result in HTTP 500 error,High,-5856,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1557238,1557238
+Fix Released,'service provider show' returns a service provider when queried with wrong sp_id,Medium,-5976,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1555830,1555830
+Fix Released,mapping no longer allows 'type' attribute in 'user' object,Critical,-5976,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1555403,1555403
+Invalid,keystone fails to start in kilo due to pysaml2 4.0.4 release,High,-6000,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1555187,1555187
+Fix Released,keystone-manage bootstrap does not work for non-SQL identity drivers,Medium,-6120,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1553216,1553216
+Fix Released,unable to set configuration file when running keystone as wsgi application,Medium,-6168,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1552397,1552397
+Fix Released,CORS middleware's latent configuration options need to change,High,-6192,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1551836,1551836
+Fix Released,Tests don't work on leapdays,High,-6216,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1551189,1551189
+Fix Released,keystone-manage bootstrap should create an identity endpoint,High,-6288,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1550057,1550057
+Fix Released,keystone eventlet using session is in 'prepared' state,High,-6312,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1550017,1550017
+Fix Released,Race condition in keystone domain config,Critical,-6312,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1549726,1549726
+Fix Released,migrate DB failed due to password cannot be null,High,-6312,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1549705,1549705
+Invalid,DocImpact - db_sync doesn't create default domain,Medium,-6336,OpenStack Identity (keystone),16,https://bugs.launchpad.net/keystone/+bug/1549479,1549479
+Fix Released,Deprecation message when using default keystone-paste.ini,Medium,-6336,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1549371,1549371
+Fix Released,Passwords can no longer be null with patch (278570),High,-6360,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1548943,1548943
+Fix Released,Misleading response when try to delete project with children,Medium,-6360,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1548562,1548562
+Fix Released,Domain created by keystone-manage bootstrap has no description,Medium,-6480,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1547214,1547214
+Fix Released,deleting role with implied role fails,High,-6504,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1546562,1546562
+Invalid,"If one trustor role is removed, the trust cannot be used",Medium,-6528,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1546039,1546039
+Fix Released,authenticating with ldap user fails due to notification,High,-6528,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1545960,1545960
+Fix Released,keystone ADMIN_TOKEN set by default can lead to default insecure deployment,Medium,-6552,OpenStack Identity (keystone),260,https://bugs.launchpad.net/keystone/+bug/1545789,1545789
+Fix Released,admin_token_auth 'deprecation' actually removes it from the pipelines,High,-6552,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1545761,1545761
+Invalid,Policy for listing service providers requires admin,Medium,-6648,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1544721,1544721
+Fix Released,Token for trust does not expand implied roles,Medium,-6720,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1543318,1543318
+Fix Released,keystone-manage commands should use sys.exit(),Medium,-6768,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1542587,1542587
+Fix Released,LDAP backend lacks support for user_description_attribute mapping,Medium,-6792,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1542417,1542417
+Fix Released,Invalid fernet X-Subject-Token token should result in 404 instead of 401,Medium,-6840,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1541621,1541621
+Fix Released,"Implied role ""root_role"" config needs to be expanded",High,-6840,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1541540,1541540
+Fix Released,deprecate pki related commands,Medium,-6840,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1541201,1541201
+Fix Released,squash migrations in preparation for mitaka,High,-6864,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1541092,1541092
+Fix Released,deprecate signing config options,Medium,-6864,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1540794,1540794
+Fix Released,trust redelegation allows trustee to create a trust (with impersonation set to true) from a redelegated trust (with impersonation set to false),Medium,-6960,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1539766,1539766
+Fix Released,keystone should convert host CONF.federation.trusted_dashboard to lower case before comparing,Medium,-7008,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1538754,1538754
+Fix Released,caching of the catalog does not invalidate across processes,High,-7056,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1537617,1537617
+Fix Released,keystone gate failing test_get_token_id_error_handling,Medium,-7104,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1537401,1537401
+Fix Released,cyclic dependencies in implied roles,High,-7176,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1536321,1536321
+Fix Released,A user with a role on a project should be able to issue a GET /project call,Medium,-7200,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1535878,1535878
+Invalid,Policy check forces impersonation for redelgation of trust,Medium,-7296,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1534834,1534834
+Fix Released,fernet tokens don't support oauth1 authentication,Medium,-7320,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1534252,1534252
+Fix Released,keystone-manage bootstrap failed to create assignment if user/project/role exists,Medium,-7320,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1534140,1534140
+Fix Released,Fernet v2 token response doesn't match v2 uuid token responses,Medium,-7344,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1533794,1533794
+Fix Released,federation create_mapping signature and V9 wrapper incorrect,High,-7368,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1533346,1533346
+Fix Released,Some protection test cases have incorrect domain id setup,Medium,-7368,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1533330,1533330
+Fix Released,Missing service 'region' and endpoint name for EndpointFilterCatalog,Medium,-7392,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1532768,1532768
+Fix Released,OAuth1 backend implementation doesn't inherit its driver interface,Medium,-7416,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1532536,1532536
+Fix Released,enabled emulation query must filter tree dn,Medium,-7464,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1532345,1532345
+Fix Released,Fernet trust token is still valid when trustee's domain is disabled.,Medium,-7464,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1532280,1532280
+Fix Released,"mapping_id does not allow ""_"" character",Medium,-7488,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1531959,1531959
+Fix Released,keystone fernet cannot work with mod wsgi anymore,High,-7824,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1528981,1528981
+Fix Released,Default domain no longer lets keystone tenant-list work,Medium,-7968,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1527759,1527759
+Fix Released,Any operation without token fails with internal server error for fernet token,Medium,-8016,OpenStack Identity (keystone),28,https://bugs.launchpad.net/keystone/+bug/1526976,1526976
+Fix Released,enable os-inherit by default,Medium,-8016,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1526660,1526660
+Fix Released,Need support for OpenDirectory in LDAP driver,Medium,-8040,OpenStack Identity (keystone),38,https://bugs.launchpad.net/keystone/+bug/1526462,1526462
+Fix Released,"Able to create objects by admin in the particular domain, for incorrect domain Id field name ""domain-id"".",Medium,-8040,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1526244,1526244
+Fix Released,IdP doesn't support field based DB filtering,Medium,-8136,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1525317,1525317
+Fix Released,Failure when federated user name contains non ascii characters,High,-8136,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1525250,1525250
+Fix Released,Trust-scoped user requests failed while using fernet tokens,Medium,-8136,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1525219,1525219
+Fix Released,Cannot use trusts with fernet tokens,Medium,-8160,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1524849,1524849
+Fix Released,No error raised if PUT/GET/PATCH/DELETE  domain-specific driver configuration database store with an invalid domain id,Medium,-8160,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1524562,1524562
+Fix Released,    Move federation extension into keystone core,Medium,-8664,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1517705,1517705
+In Progress,Reduce revocation events for performance improvement,Medium,-8208,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1524030,1524030
+Fix Released,It's possible to disable the default domain through domain update API,Medium,-8328,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1522616,1522616
+Fix Released,API Version info incorrect for Liberty,Medium,-8328,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1522433,1522433
+Fix Released,pycadf ID validation fails for multi-domain IDs,High,-8352,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1521844,1521844
+Fix Released,List users in a group by name throws  HTTP 500 error,Medium,-8376,OpenStack Identity (keystone),16,https://bugs.launchpad.net/keystone/+bug/1521772,1521772
+Fix Released,testcase fail due to value is not match,Medium,-8424,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1520850,1520850
+Fix Released,Tests that need policy.json can never find it if run in isolation,High,-8472,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1520383,1520383
+Invalid,ldap backend for roles is not deprecated,High,-8520,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1519588,1519588
+Fix Released,API-based Domain config method could temporarily show partial update,Medium,-8712,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1517038,1517038
+Fix Released,"endpoints not show correctly when using ""endpoint_filter.sql"" as catalog's backend driver",High,-8736,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1516469,1516469
+Fix Released,cache invalidation fails for endpoint filter extension,Medium,-8736,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1516468,1516468
+Fix Released,Group membership attribute is hard-coded when using 'user_enable_emulation',High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1515302,1515302
+Invalid,/v3/policies response attribute missing,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1514030,1514030
+Fix Released,Token invalidation on project delete doesn't take into inheritance into account,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1513893,1513893
+Won't Fix,Support sub-second accuracy in Fernet's creation timestamp,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1513541,1513541
+Fix Released,wrong description in developer doc,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1513464,1513464
+Fix Released,Useless deprecation message for driver import,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1513102,1513102
+Triaged,Revoking a role revokes the unscoped token for a user,Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1511775,1511775
+Fix Released,i18n safe exceptions,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1511416,1511416
+Fix Released,Rolling upgrades: online schema migration,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1509944,1509944
+Fix Released,Incorrect example in federated rules documentation,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1507944,1507944
+Fix Released,get_user_roles exception in RoleAssignmentV2,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1507920,1507920
+Fix Released,Rally change breaks Keystone rally job,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1507752,1507752
+Fix Released,Retrieving either a project's parents or subtree as_list does not work,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1506653,1506653
+Fix Released,Keystone endpoint can not resolve DNS,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1506594,1506594
+Fix Released,"EC2 controller should not get credentials other than the ones whose type is ""ec2""",Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1506473,1506473
+Invalid,requirements conflicts causes keystone fail on keystone-all command,Critical,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1505996,1505996
+Fix Released,Unit tests failing with oslo.policy 0.12.0,Critical,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1505374,1505374
+Invalid,Unit tests failing with requests 2.8.0,Critical,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1505326,1505326
+Fix Released,Potential user_id collision between Federated IdPs,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1505256,1505256
+Invalid,Error while deleting tenant in openstack Juno,High,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1503712,1503712
+Fix Released,"Output from ""role assignment list"" is not useful",Medium,-8760,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1479569,1479569
+Invalid,Optimization: Don't rebuild revoke-tree in each validate-token call,Medium,-8760,OpenStack Identity (keystone),38,https://bugs.launchpad.net/keystone/+bug/1503312,1503312
+Fix Released,Updating a project's domain_id can create an illegal project hierarchy,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1502157,1502157
+Fix Released,Creating a region without request parameters failed.,Medium,-8760,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1501740,1501740
+Fix Released,LDAP identity backend does not honor list_limit,Medium,-8760,OpenStack Identity (keystone),26,https://bugs.launchpad.net/keystone/+bug/1501698,1501698
+Fix Released,support multiple LDAP URIs,Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1500631,1500631
+Fix Released,Validating federated fernet token loses user domain info,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1500459,1500459
+Won't Fix,You can crash keystone or make the DB very slow by assigning many roles,Medium,-8760,OpenStack Identity (keystone),256,https://bugs.launchpad.net/keystone/+bug/1499555,1499555
+Won't Fix,group_filter not working,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1498569,1498569
+Triaged,Reasonable assumptions concerning domain references,Medium,-8760,OpenStack Identity (keystone),20,https://bugs.launchpad.net/keystone/+bug/1498556,1498556
+Fix Released,Fernet tokens fail for some users with LDAP identity backend,High,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1497461,1497461
+Fix Released,keystone v2 allows creation of is_domain=True projects,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1496946,1496946
+Fix Released,v2 does not filter is_domain=True projects in get_project_by_name,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1496943,1496943
+Fix Released,domain-specific drivers does not honor the list_limit set in domain-specific conf file,Medium,-8760,OpenStack Identity (keystone),20,https://bugs.launchpad.net/keystone/+bug/1495669,1495669
+Invalid,openstack group create fails while using admin token,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1493126,1493126
+Fix Released,Remove padding from Fernet tokens,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1491926,1491926
+Fix Released,Improve IdP Specific WebSSO docs,Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1491916,1491916
+Fix Released,[OSSA 2016-005] PKI Token Revocation Bypass (CVE-2015-7546),High,-8760,OpenStack Identity (keystone),264,https://bugs.launchpad.net/keystone/+bug/1490804,1490804
+Fix Released,Attempt to call strftime on a str fails revocation_list,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1490743,1490743
+Fix Released,Refactor use of oslo.db.sqlalchemy.session.EngineFacade because it's deprecated,High,-8760,OpenStack Identity (keystone),22,https://bugs.launchpad.net/keystone/+bug/1490571,1490571
+Fix Released,Tox exhausting /tmp partition,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1490354,1490354
+Fix Released,Unit tests are super slow,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1490160,1490160
+Won't Fix,trust details unavailable for admin token,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1489260,1489260
+Expired,fernet token validation is slow,Medium,-8760,OpenStack Identity (keystone),26,https://bugs.launchpad.net/keystone/+bug/1489061,1489061
+Fix Released,Revoking a role assignment revokes unscoped tokens too,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1488208,1488208
+Fix Released,ValueError when creating a user,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1487960,1487960
+Fix Released,IndexError if federation mapping doesn't match anything,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1487937,1487937
+Expired,can't get user list for domain if default identity backend driver is ldap,Medium,-8760,OpenStack Identity (keystone),16,https://bugs.launchpad.net/keystone/+bug/1487457,1487457
+Fix Released,Ephemeral user's id is not always urlsafe,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1487115,1487115
+Fix Released,Keystone raises an exception when it receives incorrectly encoded parameters,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1485694,1485694
+Fix Released,Logs must contain the request ID,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1485604,1485604
+Fix Released,EndpointFilter backend implementation doesn't inherit its driver interface,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1485116,1485116
+Fix Released,cadf payload doesn't have initiator for v2 calls,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1485035,1485035
+Fix Released,Assertion signing error causes TypeError for Message objects do not support addition,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1484735,1484735
+Fix Released,token revocations not always respected when using fernet tokens,Medium,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1484237,1484237
+Fix Released,Able to request a V2 token for user and project in a non-default domain,High,-8760,OpenStack Identity (keystone),258,https://bugs.launchpad.net/keystone/+bug/1483382,1483382
+Fix Released,Region filtering for endpoints does not work,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1482772,1482772
+Fix Released,Federation: user's name in rules not respected,Medium,-8760,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1482701,1482701
+Fix Released,Stop using deprecated methods in assignment manager,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1482660,1482660
+Fix Released,Deprecation warning in keystone log for keystone.contrib.endpoint_policy.routers.EndpointPolicyExtension,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1482500,1482500
+Fix Released,Creating a user/group/project without a domain should be deprecated (or even raise an exception),Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1482330,1482330
+Fix Released,Race condition in multithreaded Apache/WSGI setup,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1482271,1482271
+Fix Released,variable referenced before assignment error in keystone.contrib.federation.idp._sign_assertion,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1481274,1481274
+Fix Released,Sample httpd config should have LimitRequestBody,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1481048,1481048
+Fix Released,improper handling non existing identity providers ,Medium,-8760,OpenStack Identity (keystone),16,https://bugs.launchpad.net/keystone/+bug/1479837,1479837
+Invalid,"can't use ""$"" in password for ldap authentication",Medium,-8760,OpenStack Identity (keystone),16,https://bugs.launchpad.net/keystone/+bug/1480334,1480334
+Fix Released,Can't get v3 endpoints with v2 in command line,High,-8760,OpenStack Identity (keystone),24,https://bugs.launchpad.net/keystone/+bug/1480270,1480270
+Invalid,XmlBodyMiddleware stubs break existing configs,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1479943,1479943
+Fix Released,Domain-specific config breaks some ops,Medium,-8760,OpenStack Identity (keystone),36,https://bugs.launchpad.net/keystone/+bug/1479578,1479578
+Fix Released,db sync on federation failed if there is existing data,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1478961,1478961
+Fix Released,When user in AD doesn't have ID field all user handlers error out,Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1478579,1478579
+Fix Released,VersionTestCase uses the same port for admin and public endpoints,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1478000,1478000
+Fix Released,Token Validation API returns 401 not 404 on invalid fernet token,Medium,-8760,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1477600,1477600
+Expired,Assumption that db drivers can ignore hints is false,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1477451,1477451
+Fix Released,LDAP Resource backend should be deprecated,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1476347,1476347
+Fix Released,v2 tokens validated on the v3 API are missing timezones,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1476329,1476329
+Invalid,Cannot delete resources in remote services once project is deleted,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1476264,1476264
+Fix Released,using pysaml2 version 3.0.0 breaks keystone in kilo release 2015.1.0,High,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1475796,1475796
+Fix Released,v3 tokens with references outside the default domain can be validated on v2,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1475762,1475762
+Fix Released,It's possible to create duplicate trusts,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1475091,1475091
+Fix Released,Stack trace if federation mapping references unavailable request variables,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1474660,1474660
+Invalid,Adding users from different domain to a group,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1474284,1474284
+Fix Released,DeprecatedDecorators test does not setup fixtures correctly,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1474069,1474069
+Fix Released,create_region_with_id miss the schema validation,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1473848,1473848
+Invalid,misleading error when creating a group without specifying a domain,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1473598,1473598
+Invalid,Identity API v3 does not accept more than one query parameter,Medium,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1473489,1473489
+Fix Released,"Using ""keystone-manage domain_config_upload --all"" with an empty /etc/keystone/domains directory results in no feedback",Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1472059,1472059
+Fix Released,Fernet tokens and Federated Identities result in token scope failures,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1471289,1471289
+Fix Released,add federation docs for mod_auth_mellon,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1470952,1470952
+Fix Released,Stop using deprecated oslo_utils.timeutils.strtime,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1469867,1469867
+Fix Released,Fernet tokens do not maintain expires time across rescope (V2 tokens),High,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1469563,1469563
+Fix Released,Federation get_mapping_from_idp_and_protocol should return object,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1469517,1469517
+Invalid,v3_to_v2 token conversion code does not support trusts,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1469472,1469472
+Fix Released,Migrations fail going from juno -> kilo,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1469029,1469029
+Fix Released,Failure on list users when using ldap domain configuration from database,Medium,-8760,OpenStack Identity (keystone),18,https://bugs.launchpad.net/keystone/+bug/1461299,1461299
+Fix Released,Group lookup by name in LDAP via v3 fails,Medium,-8760,OpenStack Identity (keystone),22,https://bugs.launchpad.net/keystone/+bug/1468000,1468000
+Fix Released,Move to graduated oslo.service,Medium,-8760,OpenStack Identity (keystone),20,https://bugs.launchpad.net/keystone/+bug/1466851,1466851
+Fix Released,Unit tests fail with sqlalchemy 1.0+,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1467008,1467008
+Fix Released,v3 - Ambiguous error when no request body is provided for updating service,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1466872,1466872
+Invalid,the function _config_to_list is not working well,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1466846,1466846
+Expired,keystone fails with: ArgsAlreadyParsedError: arguments already parsed: cannot register CLI option,Critical,-8760,OpenStack Identity (keystone),68,https://bugs.launchpad.net/keystone/+bug/1466485,1466485
+Fix Released,Password visible in clear text in keystone.log when user created and keystone debug logging is enabled,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1465922,1465922
+Fix Released,Fernet key rotation removing keys early,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1465444,1465444
+Expired,Keystone v2.0 api accepts tokens deleted with v3 api,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1464377,1464377
+Fix Released,unit tests fail based on wall clock time,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1464366,1464366
+Fix Released,Stop using deprecated oslo_utils.timeutils.isotime,Critical,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1461251,1461251
+Invalid,Token is not revoked when removing a user from project in Horizon,High,-8760,OpenStack Identity (keystone),258,https://bugs.launchpad.net/keystone/+bug/1461095,1461095
+Expired,keystone-all crashes when ca_certs is not defined in conf,Critical,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1459828,1459828
+Fix Released,"With fernet tokens, validate token loses the ms on 'expires' value ",Medium,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1459790,1459790
+Invalid,Give more details about the K2K flow,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1459686,1459686
+Fix Released,Config federation docs still references SP as regions,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1459683,1459683
+Confirmed,able to validate a Fernet token with garbage at the end,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1459483,1459483
+Fix Released,Fernet tokens can fail with LDAP identity backends,High,-8760,OpenStack Identity (keystone),28,https://bugs.launchpad.net/keystone/+bug/1459382,1459382
+Fix Released,Wrong assertion examples in doc,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1459279,1459279
+Fix Released,keystone wsgi does not read files in /etc/keystone/*,Critical,-8760,OpenStack Identity (keystone),36,https://bugs.launchpad.net/keystone/+bug/1456441,1456441
+Fix Released,hard to understand the uri printed in the log,Medium,-8760,OpenStack Identity (keystone),24,https://bugs.launchpad.net/keystone/+bug/1454968,1454968
+Fix Released,Keystone v3 user/tenant lookup by name via OpenStack CLI client fails,High,-8760,OpenStack Identity (keystone),32,https://bugs.launchpad.net/keystone/+bug/1454309,1454309
+Fix Released,"Use single connection in get_all function for getting ""enabled"" values for all ldap users.",Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1451910,1451910
+Fix Released,Invalid SQL Identity  Assertion - Load Config from Database,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1450344,1450344
+Fix Released,"Introduction to ""target.token.*"" is needed in the RBAC part of configuration.rst",Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1448991,1448991
+Fix Released,unicode query string raises UnicodeEncodeError,Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1448286,1448286
+Fix Released,versionutils.deprecated is used to mark callables as deprecated,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1447472,1447472
+Fix Released,services no longer reliably stop in stable/liberty / master,Critical,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1446583,1446583
+Fix Released,Delete endpoint_group should remove project_endpoint_group at first,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1443765,1443765
+Fix Released,[OSSA 2015-008] backend_argument containing a password leaked in logs (CVE-2015-3646),High,-8760,OpenStack Identity (keystone),256,https://bugs.launchpad.net/keystone/+bug/1443598,1443598
+Invalid,Kilo domain config rest feature does not uniformly reload domain configurations,Medium,-8760,OpenStack Identity (keystone),12,https://bugs.launchpad.net/keystone/+bug/1442663,1442663
+Fix Released,Cannot set per protocol remote_id_attribute,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1441827,1441827
+Fix Released,Keystone and Ceilometer unit tests fail with pymongo 3.0,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1441393,1441393
+Fix Released,"keystone-manage domain_config_upload command yield ""'CacheRegion' object has no attribute 'expiration_time'""",High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1441386,1441386
+Fix Released,keystone-manage man page updates,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1441300,1441300
+Fix Released,Error in migration 066_fixup_service_name_value.py,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1441164,1441164
+Fix Released,loosen validation on matching trusted dashboard,Medium,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1440958,1440958
+Fix Released,Crash with python-memcached==1.5.4,High,-8760,OpenStack Identity (keystone),20,https://bugs.launchpad.net/keystone/+bug/1440493,1440493
+Fix Released,Identity provider create fails if remote_id is not set,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1440185,1440185
+Won't Fix,can create the same type and name of a service with v3 API,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1439928,1439928
+Fix Released,"With using V3 cloud admin policy, domain admin unable to list role assignment for projects in his domain",Medium,-8760,OpenStack Identity (keystone),40,https://bugs.launchpad.net/keystone/+bug/1437407,1437407
+Fix Released,keystone policy.json breaks oslo.policy,Critical,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1437032,1437032
+Fix Released,SQL schema downgrades are no longer supported,Medium,-8760,OpenStack Identity (keystone),22,https://bugs.launchpad.net/keystone/+bug/1434103,1434103
+Fix Released, request-ids aren't being logged for any cinder.api.openstack.wsgi [-],Medium,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1435588,1435588
+Fix Released,ServiceProviderModel has wrong attributes for auth_url and sp_url,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1435487,1435487
+Fix Released,No notifications for role grants using v2,Medium,-8760,OpenStack Identity (keystone),256,https://bugs.launchpad.net/keystone/+bug/1435396,1435396
+Invalid,get_v3_catalog is in the driver section of catalog/core - it should be in the manger,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1435315,1435315
+Fix Released,v2 and v3 get catalog pass unused metadata parameter,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1435312,1435312
+Invalid,sql backend get_v3_catalog is never used,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1435310,1435310
+Fix Released,SSLTestCase errors when building Debian package,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1435174,1435174
+Fix Released,GET /v3/projects/project_id with parents_as_list or subtree_as_list option is leaking extra data,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1434916,1434916
+Fix Released,websso should compare remote_id_attribute to remote_id of IdP,High,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1434701,1434701
+Fix Released,ec2 signature possible errors,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1434599,1434599
+Fix Released,Fernet tokens with base64 padding are not URL-safe,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1433372,1433372
+Fix Released,list users in group unauthorised with v3 policy,Medium,-8760,OpenStack Identity (keystone),28,https://bugs.launchpad.net/keystone/+bug/1433402,1433402
+Fix Released,token_ref fetched in AuthContextMiddleware should be reused,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1433211,1433211
+Invalid,GET /v3/auth/tokens without X-Subject-Token raises TypeError,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1431842,1431842
+Fix Released,Fernet TypeError: token must be bytes.,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1431669,1431669
+Fix Released,user creation with fernet tokens results in 401,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1431434,1431434
+Fix Released,Revocation causes duplicate (and overly broad?) events in revocation table,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1430951,1430951
+Fix Released,Fernet token validation doesn't return catalog and role information for domain scoped tokens,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1430433,1430433
+Fix Released,Fernet token response has  wrong methods,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1430062,1430062
+Fix Released,local tests failing fernet tests,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1429663,1429663
+Fix Released,Mark domain-config API as experimental in Identity spec,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1429557,1429557
+Fix Released,Identity API for domain-config should define separate resources for group/option,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1429556,1429556
+Fix Released,Unmatched Groups in Federation Mapping raise errors,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1429334,1429334
+Fix Released,Fernet tokens do not support domain scopes,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1428949,1428949
+Fix Released,Fernet tokens don't return audit_ids,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1428829,1428829
+Fix Released,Fernet tokens have redundant creation timestamps,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1428717,1428717
+Fix Released,Domain Config updates for specific group/option don't honor NotFound,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1428600,1428600
+Fix Released,unable to generate saml assertion,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1428251,1428251
+Fix Released,keystone logs password in log message,Critical,-8760,OpenStack Identity (keystone),256,https://bugs.launchpad.net/keystone/+bug/1427533,1427533
+Fix Released,Fernet tokens contain a version identifier that is not integrity verified,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1427485,1427485
+Fix Released,V2 only keystone wont start - revoke not in loaded backends,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1427440,1427440
+Fix Released,LDAP debug logging during unit tests brings us close to causing jenkins to fail our tests,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1427437,1427437
+Fix Released,AttributeError: 'Assignment' object has no attribute 'get_domain_by_name',Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1427379,1427379
+Fix Released,Create project with invalid domain_id,Medium,-8760,OpenStack Identity (keystone),10,https://bugs.launchpad.net/keystone/+bug/1426496,1426496
+Fix Released,Identity API spec for creating domain-config should be PUT not POST,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1426448,1426448
+Fix Released,DB migration problem with federation extension,High,-8760,OpenStack Identity (keystone),8,https://bugs.launchpad.net/keystone/+bug/1426334,1426334
+Fix Released,The identity API spec includes examples of the email attribute,High,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1426310,1426310
+Fix Released,SQL/LDAP are not able to honor multiple filters in driver_hints.Hints(),Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1424745,1424745
+Fix Released,Federation list projects endpoint does not honor project inherited role assignments,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1424500,1424500
+Fix Released,Documentation lacking for mapping of operation policy target,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1424496,1424496
+Fix Released,Terminating neutron-server leads to waitall() inside a GreenPool's greenthread,High,-8760,OpenStack Identity (keystone),14,https://bugs.launchpad.net/keystone/+bug/1423250,1423250
+Fix Released,Use SystemRandom rather than random,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1424089,1424089
+Fix Released,List Tenants in v2 response has parent_id,Medium,-8760,OpenStack Identity (keystone),6,https://bugs.launchpad.net/keystone/+bug/1423022,1423022
